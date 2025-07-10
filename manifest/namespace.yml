@@ -1,0 +1,10 @@
+# kubectl apply -f namespace.yml
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: santiagoprada
+  labels:
+    environment: development
+    team: santiagoprada-vg
+  annotations:
+    owner: santiagoprada-vg
